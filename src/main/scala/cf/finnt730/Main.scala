@@ -18,6 +18,10 @@ object Main {
       println(index)
     }
 
+    println("GITHUIB YOU NEED TO PUSH TO MY DICORD!!!!")
+
+    def test = null
+
   }
 
 
