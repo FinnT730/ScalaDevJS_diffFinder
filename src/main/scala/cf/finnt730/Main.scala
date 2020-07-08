@@ -1,5 +1,7 @@
 package cf.finnt730
 
+import java.io.FileReader
+
 object Main {
 
   def main(args: Array[String]): Unit = {
@@ -14,15 +16,17 @@ object Main {
 //    })
 
 
-    for(index <- 0 to 9000) {
-      println(index)
+
+    def fileReader = new CreateFileReader()
+    def reader = fileReader.CreateFileReader("test.txt")
+
+    var buff = 0
+    while(buff != -1) {
+      buff = reader.read()
+      print(buff.toString)
     }
 
-    println("GITHUIB YOU NEED TO PUSH TO MY DICORD!!!!")
 
-    def test = null
 
   }
-
-
 }
