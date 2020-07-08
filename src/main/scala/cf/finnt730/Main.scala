@@ -13,15 +13,6 @@ object Main {
 //      indexOfArgs.+(1);
 //    })
 
-
-    for(index <- 0 to 9000) {
-      println(index)
-    }
-
-    println("GITHUIB YOU NEED TO PUSH TO MY DICORD!!!!")
-
-    def test = null
-
   }
 
 
